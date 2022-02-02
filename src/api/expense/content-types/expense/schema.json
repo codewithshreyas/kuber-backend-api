@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expenses",
+  "info": {
+    "singularName": "expense",
+    "pluralName": "expenses",
+    "displayName": "Expense"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "toWhome": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "expanseDate": {
+      "type": "datetime"
+    }
+  }
+}
